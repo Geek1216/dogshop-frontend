@@ -1,0 +1,131 @@
+.banner {
+    // background-image: url(../images/bannerBg1.png);
+    // background-repeat: no-repeat;
+    // background-position: start;
+    // background-size: cover;
+    // padding-top: 111px;
+    // padding-bottom: 200px;
+    min-height: 65.2rem;
+    position: relative;
+
+    @media (max-width:991px){
+        min-height: 54.2rem;
+    }
+
+
+    @media (max-width:800px){
+        min-height: 46.2rem;
+    }
+
+    @media (max-width:690px){
+        min-height: 40.2rem;
+    }
+
+    @media (max-width:600px){
+        min-height: 37.2rem;
+    } 
+    
+    @media (max-width:540px){
+        min-height: 34.2rem;
+    }
+    
+    @media (max-width:480px){
+        min-height: 31.2rem;
+    }
+    
+    
+    @media (max-width:441px){
+        min-height: 29.2rem;
+    }
+    
+    @media (max-width:400px){
+        min-height: 27.2rem;
+    }
+
+
+
+    .carousel-control-next,
+    .carousel-control-prev{
+        width: 40px;
+        background: rgba(217, 217, 217, 0.4);
+        height: 40px;
+        border-radius: 50%; 
+        top: 50%;
+
+    }
+    
+
+    .carousel-caption {
+        // top: 120px;
+        top: 25%;
+        left: 89px;
+        text-align: start;
+        width: 45%;
+        @media (max-width:1646px){
+            top: 20%;
+        } 
+        
+        @media (max-width:1578px){
+            top: 15%;
+        }
+        
+        
+        @media (max-width:991px){
+        background-color: #FF9B62;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 3rem;
+        height: 50rem;
+        }
+
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: white;
+        opacity: 1;
+        margin-bottom: 50px;
+    }
+    .carousel-indicators .active {
+        background-color: #08D0C6;
+    }
+
+    .carousel-control-prev {
+        left: 25px;
+
+        @media (max-width:1107px){
+            display: none !important;
+        }
+    }
+
+    .carousel-control-next {
+        right: 25px;
+        @media (max-width:1107px){
+            display: none !important;
+        }
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../images/arrowleft.png);
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(../images/arrowright.png );
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon
+    {
+        width: 10.09px; height: 15.63px;
+        border-radius: 50%;
+
+    }
+
+    .banner-desc {
+        margin-bottom: 36px;
+        line-height: 28.18px;
+    }
+}
+
+

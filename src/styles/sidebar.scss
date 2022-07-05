@@ -1,0 +1,45 @@
+
+.menu-close{
+    // margin-top: -10rem !important;
+}
+
+// .side-index{
+//     z-index: 9999 !important;
+// }
+
+
+
+.mob-sidebar-logo{
+    width: 20rem;
+   margin: auto;
+   margin-top: 2rem !important;
+   transform: translateX(-2rem);
+   display: none;
+   @media (max-width:1107px){
+    display: block;
+   }
+}
+
+.mob-s-l{
+    display: flex;
+    color: #dd7a48 !important;
+    justify-content: space between;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    margin: auto 30px;
+
+    &:hover {
+        background: #09d1c6;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+        color: #fff !important;
+      }
+    
+}
+

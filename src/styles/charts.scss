@@ -1,0 +1,145 @@
+.recharts-legend-wrapper{
+    display: none;
+}
+
+
+.recharts-wrapper{
+    width: auto !important;
+    height: auto !important;
+}
+
+
+
+.recharts-surface{
+    width: 90rem;
+    @media (max-width:1550px){
+        width: 80rem;
+    }
+    
+    @media (max-width:1429px){
+        width: 70rem;
+    } 
+    
+    
+    @media (max-width:1300px){
+        width: 60rem;
+    }    
+    
+    @media (max-width:1175px){
+        width: 50rem;
+    }
+    
+    
+    @media (max-width:710px){
+        width: 40rem;
+    }    
+    
+    @media (max-width:610px){
+        width: 100%;
+    }
+}
+
+
+
+
+
+.Chart-container{
+    width: 80%;
+    margin: 3rem auto;
+
+    @media (max-width:1175){
+        width: 100%;
+    }
+}
+
+.chart-div{
+    width: 100rem;
+    height: auto;
+    padding: 3rem;
+    --webkit-box-shadow: 0 0 10px #00000030;
+    box-shadow: 0 0 10px #00000030;
+    background-color: #FFEBDC;
+    border-radius: 10px;
+    margin: auto;
+
+    @media (max-width:1550px){
+        width: 90rem;
+    }
+
+    @media (max-width:1429px){
+        width: 80rem;
+    }
+
+    @media (max-width:1300px){
+        width: 70rem;
+        padding-bottom: 0rem !important;
+        
+    }
+
+    @media (max-width:1175px){
+        width: 60rem;
+    }
+    
+    @media (max-width:710px){
+        width: 50rem;
+    }
+    
+    
+    @media (max-width:610px){
+        width: 100%;
+    }
+
+}
+
+.chart-div h4{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+color: #525252;
+}
+
+.date-select{
+    position: relative;
+    width: 13rem;
+    height: 4rem;
+    text-align: center;
+    color: #525252;
+    font-family: raleway;
+    font-size: 1.8rem;
+    background: #FFE0C7;
+    border: 1px solid #FFBF8F;
+    border-radius: 6px; 
+    // padding: 1rem;
+    margin-left: 80rem;
+    margin-bottom: 4rem;
+
+    @media (max-width:1550px){
+        margin-left: 67rem;
+    }
+    
+    @media (max-width:1429px){
+        margin-left: 57rem;
+    }
+
+    @media (max-width:1300px){
+        margin-left: 47rem;
+    }
+
+    @media (max-width:1175px){
+        margin-left: 37rem;
+        
+    }
+
+    @media (max-width:710px){
+        margin-left: 27rem;
+    }
+
+    @media (max-width:610px){
+        margin-left: 58%;
+    }
+}
+
+.recharts-tooltip-wrapper{
+    display: none !important;
+}

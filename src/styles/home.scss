@@ -1,0 +1,287 @@
+
+
+
+.bg_2 {
+     background-image: url(../images/bg_2.png);
+     background-position: left top;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     min-height: 271px;
+}
+
+
+.foot-2-img{
+    @media (max-width:800px){
+        width: 10rem !important;
+        margin-top: 4rem !important;
+    }
+}
+
+.whats {
+    padding-top: 110px;
+    position: relative;
+
+    .title {
+        padding-bottom: 90px ;
+    }
+
+    p {
+        line-height: 31px;
+    }
+}
+
+.carousel-caption a{
+    @media (max-width:1200px){
+        width: 40rem !important;
+    }
+    
+    @media (max-width:991px){
+      width: 54rem !important;
+    }
+    
+    
+    @media (max-width:672px){
+      width: 38rem !important;
+    }
+
+    
+    @media (max-width:590px){
+        width: 98% !important;
+
+    }
+    
+
+}
+
+.carousel-caption a button{
+    @media (max-width:991px){
+  width: 24rem !important;
+  font-size: 1.6rem;
+
+    }
+
+        
+
+
+    @media (max-width:686px){
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+        width: 20rem !important;
+        margin: 3rem auto;
+    }
+
+    @media (max-width:500px){
+        padding: 1rem !important;
+        width: 14rem !important;
+        margin-top: 1rem;
+    }
+    
+    @media (max-width:390px){
+        padding: 0.8rem !important;
+        width: 12rem !important;
+        margin-top: 0.5rem;
+    }
+
+}
+
+.carousel-caption h3{
+
+       
+
+
+    @media (max-width:610px){
+        font-size: 1.8rem !important;
+
+    }
+    @media (max-width:686px){
+        font-size: 2rem;
+        margin-bottom: 0.8rem !important;
+        line-height: 2rem;
+    }
+    
+    @media (max-width:500px){
+        font-size: 1.6rem !important;
+        margin-bottom: 0.8rem !important;
+        line-height: 1.6rem !important;
+    }
+
+    @media (max-width:991px){
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+
+
+.carousel-caption p{
+    font-size: 2.4rem;
+
+    @media (max-width:1356px){
+        font-size: 2rem;
+    }
+
+    @media (max-width:1200px){
+        font-size: 1.6rem;
+        width: 40rem !important;
+        text-align: left !important;
+    }
+    
+    @media (max-width:991px){
+        font-size: 1.6rem;
+        width: 56rem !important;
+
+    }
+
+    
+    @media (max-width:686px){
+        font-size: 1.4rem;
+        width: 60rem !important;
+
+    }
+    
+    
+    @media (max-width:672px){
+        font-size: 1.4rem;
+        width: 60rem !important;
+
+    }    
+
+
+    @media (max-width:610px){
+        font-size: 1.2rem;
+        width: 100% !important;
+
+    }
+
+    @media (max-width:524px){
+        font-size: 1rem;
+    } 
+    
+    @media (max-width:450px){
+        font-size: 0.8rem;
+    }
+}
+
+.inside-box{
+    width: 100%;
+    text-align: center;
+}
+
+.inside-box img{
+
+    @media (max-width:690px){
+        width: 40rem;
+    }
+    
+    @media (max-width:450px){
+        width: 30rem;
+    }
+   
+}
+
+.story {
+    margin-bottom: 100px;
+
+}
+
+.join-btn {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 9px 31px;
+
+    @media (max-width:618px){
+        font-size: 3rem;
+    }
+    
+    @media (max-width:390px){
+        font-size: 2rem;
+    }
+    
+}
+
+
+.item-img-about2 img{
+    @media (max-width:1131px){
+        width: 39rem !important;
+    }
+
+    @media (max-width:835px) {
+        width: 40rem !important;
+        margin: auto !important;
+    }   
+    
+    
+    @media (max-width:643px) {
+        width: 20rem !important;
+        margin: auto !important;
+    }
+
+
+}
+
+.about p{
+    font-size: 2.4rem !important;
+    color: #525252 !important; 
+
+    @media (max-width:991px){
+        font-size: 1.8rem !important;
+    }
+}
+
+.w_d_f{
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+
+    @media (max-width:758px){
+        top: 103%;
+        width: 90%;
+    }
+}
+
+.w_d_f img{
+    @media (max-width:758px){
+        width: 5rem;
+        
+    }
+
+    @media (max-width:500px){
+        width: 3rem;
+        
+    }
+}
+
+.nav-btns3{
+    position: absolute;
+    top: 2.5rem;
+    left: auto;
+    right: 2rem;
+    display: none;
+    @media (max-width:1107px){
+        display: block;
+    }
+    @media (max-width:676px){
+        right: 0rem;
+        top: 3rem;
+    }
+}
+
+.nav-item3{
+    font-size: 20px;
+    margin-right: 10px;
+
+&:hover {
+  color: #09D1C6 !important;
+  transition: .3s all;
+}
+
+
+@media (max-width:676px){
+    font-size: 1.6rem;
+}
+}
+

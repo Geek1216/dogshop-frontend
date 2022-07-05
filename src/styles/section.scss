@@ -1,0 +1,262 @@
+.section {
+    padding-top: 80px;
+    position: relative;
+    background-color: #fec79e;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    
+    .section-title {
+        color: #08D0C6;
+    }
+
+    .title {
+        color: #E77F44;
+    }
+  
+    .item p{
+        font-size: 2.4rem !important;
+    }
+}
+
+
+
+.f-r-foot{
+    position: absolute;
+    left: auto;
+    right: 7rem;
+}
+
+
+.t_c_foot{
+    position: absolute;
+    left: 55rem;
+    top: 30rem;
+
+    @media (max-width:1399px){
+        left: 30rem;
+    }
+
+    @media (max-width:520px){
+        left: 1rem;
+    }
+}
+
+.l_d_bone{
+    position: absolute;
+    top: 120rem;
+    width: 145rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (max-width:1399px){
+        top: 125rem;
+        width: 125rem;
+    }
+
+    @media (max-width:1199px){
+        top: 133rem;
+        width: 110rem;
+    }
+
+    @media (max-width:991px){
+        top: 192rem;
+        width: 42rem;
+    }
+
+    @media (max-width:835px){
+        top: 213rem;
+        width: 42rem;
+    }
+
+    @media (max-width:643px){
+        top: 248rem;
+        width: 38rem;
+    }
+}
+
+
+.l_d_dots{
+    position: absolute;
+    top: 123rem;
+    width: 100%;
+    text-align: center;
+
+    @media (max-width:1399px){
+        top: 128rem;
+    }
+
+    @media (max-width:1199px){
+        top: 136rem;
+    }
+
+    @media (max-width:991px){
+        top: 195rem;
+        width: 40rem;
+        text-align: right;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    
+
+    @media (max-width:835px){
+        top: 216rem;
+        width: 40rem;
+    }
+
+    
+
+    @media (max-width:643px){
+        top: 251rem;
+        width: 38rem;
+    }
+}
+
+
+
+.l_d_dog{
+    position: absolute;
+    top: 140rem;
+    width: 100%;
+    text-align: center;
+    @media (max-width:1399px){
+        top: 150rem;
+    }
+
+    @media (max-width:1199px){
+        top: 160rem;
+    }
+
+    @media (max-width:991px){
+        top: 257rem;
+    }
+
+    
+
+    @media (max-width:835px){
+        top: 285rem;
+    }
+
+    
+
+    @media (max-width:643px){
+        top: 325rem;
+    }
+}
+
+
+
+.l_d_dog img{
+    width: 15.8rem;
+    @media (max-width:835px){
+        width: 12rem;
+    }
+}
+
+.foot-1-img{
+    @media (max-width:690px){
+        width: 10rem !important;
+        margin-left: -5rem !important;
+    }
+
+    @media (max-width:1445px){
+        margin-left: -5rem !important;
+    }
+
+    @media (max-width:1100px){
+        margin-left: -5rem !important;
+    }
+
+    @media (max-width:991px){
+        top: 90% !important;
+    }
+
+    @media (max-width:500px){
+        top: 95% !important;
+    }
+
+    @media (max-width:643px){
+        margin-left: 0rem !important;
+
+    }
+
+
+}
+
+.item-h2{
+    @media (max-width:991px) {
+        text-align: center;
+    }
+}
+
+
+.item-p{
+
+    
+    @media (max-width:1200px){
+        margin: 0 !important;
+        text-align: left !important;
+        width: 50rem !important;
+    }
+
+    @media (max-width:991px) {
+        width: 60rem !important;
+        text-align: justify !important;
+        margin: 3rem auto !important;
+    } 
+    
+    @media (max-width:835px) {
+        width: 40rem !important;
+        text-align: justify !important;
+        margin: 3rem auto !important;
+    }   
+    
+    
+    @media (max-width:643px) {
+        width: 30rem !important;
+        text-align: justify !important;
+        margin: 3rem auto !important;
+    }
+
+}
+
+
+.item-img{
+        
+    @media (max-width:1027px) {
+        margin-left:-3rem !important;
+
+        
+    } 
+        
+    @media (max-width:835px) {
+        width: 40rem !important;
+        margin: auto !important;
+    }   
+    
+    
+    @media (max-width:643px) {
+        width: 30rem !important;
+        margin: auto !important;
+    }
+
+    img{
+        @media (max-width:835px) {
+            width: 35rem !important;
+            margin: auto !important;
+        }   
+
+        @media (max-width:643px) {
+            width: 30rem !important;
+        }
+        
+    }
+}
+
+.dog-bone-about-2{
+    @media (max-width:500px) {
+        top: 93% !important;
+    }
+}
+
