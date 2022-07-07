@@ -88,6 +88,24 @@
         background-color: white;
         opacity: 1;
         margin-bottom: 50px;
+
+        @media (max-width:991px){
+            margin-bottom: 100px;
+        }
+
+        @media (max-width:900px){
+            margin-bottom: 150px;
+        }
+
+        @media (max-width:800px){
+            margin-bottom: 80px;
+        }
+
+        @media (max-width:768px){
+           display: none;
+        }
+
+      
     }
     .carousel-indicators .active {
         background-color: #08D0C6;

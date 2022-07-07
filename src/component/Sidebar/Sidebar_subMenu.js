@@ -45,7 +45,7 @@ const Sidebar_subMenu = ({ item }) => {
 
   return (
     <>
-      <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
+      <SidebarLink  to={item.path} onClick={item.subNav && showSubnav}>
         <div>
           {item.icons}
           <SidebarLabel className="useCallback(({isActive}) => isActive ? classes.active : classes.link)">

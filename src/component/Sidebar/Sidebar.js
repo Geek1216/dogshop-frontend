@@ -88,7 +88,7 @@ const Sidebar = () => {
             return <SubMenu item={item} key={index} />;
           })} */}
 
-          <NavLink to="/" className="mob-s-l" activeClassName="s-ac">
+          <NavLink to="/" className="mob-s-l">
             Home
           </NavLink>
 
@@ -103,7 +103,7 @@ const Sidebar = () => {
           <NavLink
             to="/pages/Contact.js"
             className="mob-s-l"
-            activeClassName="s-ac"
+            
           >
             Contact
           </NavLink>
@@ -115,7 +115,7 @@ const Sidebar = () => {
           <NavLink
             to="/pages/Signup.js"
             className="mob-s-l"
-            activeClassName="s-ac"
+        
           >
             Get Pawpack
           </NavLink>

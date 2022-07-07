@@ -22,9 +22,9 @@ const Banner = () => {
   return (
     <div>
       <Carousel className="banner">
-        {bannerData.map((item) => {
+        {bannerData.map((item, i) => {
           return (
-            <Carousel.Item>
+            <Carousel.Item key={i}>
               <img className="d-block w-100" src={item.bg} alt="dog" />
               <Carousel.Caption>
                 <h3>{item.title}</h3>
